@@ -1,0 +1,31 @@
+name: Belkrovlia
+type: theme
+description: 'Theme for belkrovlia.by'
+core_version_requirement: ^8 || ^9
+base theme: false
+
+libraries:
+  - belkrovlia/global-styling
+
+regions:
+  header_left: 'Header Left'
+  header_middle: 'Header Middle'
+  header_right: 'Header Right'
+  breadcrumbs: 'Breadcrumbs'
+  slider_left: 'Slider Left'
+  slider_right: 'Slider Right'
+  featured_left: 'Featured Left'
+  featured_right: 'Featured Right'
+  sidebar_first: 'Sidebar First'  
+  content: 'Content'
+  content_right: 'Content Right'
+  content_bottom: 'Content Bottom'
+  sidebar_second: 'Sidebar Second'
+  featured_bottom_left: 'Featured Bottom Left'
+  featured_bottom_right: 'Featured Bottom Right'
+  footer_first_left: 'Footer First Left'
+  footer_first_middle: 'Footer First Middle'
+  footer_first_right: 'Footer First Right'
+  footer_second: 'Footer Second'
+  mobile_panel: 'Mobile Panel'
+  popup: 'Popup'

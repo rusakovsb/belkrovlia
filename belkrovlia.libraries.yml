@@ -1,0 +1,21 @@
+global-styling:
+  css:
+    theme:
+      css/main.css: {}  
+      css/swiper.css: {}
+      css/views.css: {}
+      css/mobilepanel.css: {}
+      css/colorbox.css: {}
+      css/responsive.css: {}
+  js:
+    js/gsap.min.js: {}
+    js/ScrollTrigger.min.js: {}
+    js/mobilepanel.js: {}
+    js/swiper.js: {}
+    js/colorbox.js: {}
+    js/smoothscroll.js: {}    
+    js/main.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - colorbox/colorbox

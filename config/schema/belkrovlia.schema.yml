@@ -1,0 +1,5 @@
+# Schema for the configuration files.
+
+belkrovlia.settings:
+  type: belkrovlia_settings
+  label: 'Belkrovlia settings'

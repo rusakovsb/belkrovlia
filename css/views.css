@@ -1,0 +1,259 @@
+/*-------------------------------------------*
+/* About
+/*-------------------------------------------*/
+
+.about__title {
+    margin: 0 0 2vw 0; 
+    padding: 0 2vw 0 0;
+    font-size: 2.708vw;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.about__body {    
+    margin: 0;
+    font-size: 1.146vw;
+    line-height: 1.5;
+    color: #555;
+}
+
+/*-------------------------------------------*
+/* Advantage icons
+/*-------------------------------------------*/
+
+.advantage-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -2vw -2vw 0 -2vw;
+    padding: 0;
+    list-style: none;
+}
+
+.advantage-list-item {
+    flex: 0 0 auto;
+    width: 50%;
+    margin: 2vw 0 0 0;
+    padding: 0 2vw;
+    color: #fff;
+}
+
+.advantage-list-item__icon {
+    width: 4vw;
+    margin: 0 0 1vw 0;
+}
+
+.advantage-list-item__icon circle, 
+.advantage-list-item__icon ellipse,
+.advantage-list-item__icon line, 
+.advantage-list-item__icon path, 
+.advantage-list-item__icon polygon, 
+.advantage-list-item__icon polyline, 
+.advantage-list-item__icon rect {
+    fill: none;
+    stroke: #ff7514;
+    stroke-width: 0.188rem;
+}
+
+.advantage-list-item__title {
+    font-size: 1.25vw;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+/*-------------------------------------------*
+/* Advantage text
+/*-------------------------------------------*/
+
+.advantages__title {
+    margin: 0 0 2vw 0;
+    font-size: 2.083vw;
+    font-weight: bold;
+}
+
+.advantages__body {
+    margin: 0 0 2vw 0;
+    font-size: 1.146vw;
+    line-height: 1.5;
+}
+
+/*-------------------------------------------*
+/* Counters
+/*-------------------------------------------*/
+
+.counters {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -2vw;
+    padding: 0;
+    list-style: none;
+}
+
+.counter {
+    flex: 0 0 auto;
+    width: 50%;
+    padding: 0 2vw;
+}
+
+.counter__number {  
+    display: inline-block; 
+    font-size: 3.125vw;
+    font-weight: 800;
+    color: #ff7514;
+}
+
+.counter__number::after { 
+    content: "+"; 
+    font-weight: 400;
+}
+
+.counter__title {
+    font-size: 1.458vw;
+    font-weight: 600;
+}
+
+/*-------------------------------------------*
+/* Manufacturers text
+/*-------------------------------------------*/
+
+.manufacturers__title {
+    margin: 0 0 2vw 0; 
+    font-size: 2.292vw;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.manufacturers__body {
+    margin: 0;
+    font-size: 1.146vw;
+    line-height: 1.5;
+    color: #555;
+}
+
+/*-------------------------------------------*
+/* Manufacturers slider
+/*-------------------------------------------*/
+
+.manufacturers-slide {
+    padding: 0.063rem;
+}
+
+.manufacturers-slide img {
+    border: 0.125rem #e6e7e8 solid;
+}
+
+/*-------------------------------------------*
+/* Services, Works
+/*-------------------------------------------*/
+
+.service-list,
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -2vw -1vw 0 -1vw;
+}
+
+.service-list-item,
+.work-list-item {    
+    flex: 0 0 auto;
+    width: 33.333%;
+    margin: 2vw 0 0 0;
+    padding: 0 1vw;
+}
+
+.service-list-item__link {
+    display: block;
+    position: relative;
+}
+
+.service-list-item__text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 2vw 0 0;
+    padding: 1vw 1vw 0 0;
+    background: #fff;
+}
+
+.service-list-item__title {
+    margin: 0 0 0.5vw 0;
+    font-weight: bold;
+    font-size: 1.354vw;
+    line-height: 1;
+}
+
+.service-list-item a,
+.service-list-item a:hover {
+    color: #000;
+}
+
+.service-list-item__price {
+    color: #ff7514;
+    font-size: 1.042vw;
+    font-weight: 600;
+}
+
+/*-------------------------------------------*
+/* Service image
+/*-------------------------------------------*/
+
+.view-service-image__content {
+    position: relative;
+}
+
+.view-service-image__content::before {
+    position: absolute;
+    z-index: 1;
+    content: "";
+    display: block;
+    top: 2vw;
+    right: 2vw;
+    bottom: -2vw;
+    left: -2vw;
+    background: #e6e7e8;
+}
+
+.view-service-image img {
+    position: relative;
+    z-index: 2;
+}
+
+.view-service-image img:not(:last-child) {
+    margin: 0 0 2vw 0;
+}
+
+/*-------------------------------------------*
+/* FAQ
+/*-------------------------------------------*/
+
+.faq-list-item:not(:last-child) {
+    margin: 0 0 2vw 0;
+}
+
+.faq-list-item__title {
+    margin: 0 0 1vw 0;
+    font-size: 1.667vw;
+    font-weight: bold;
+}
+
+.faq-list-item__body {
+    font-size: 1.146vw;
+    line-height: 1.5;
+    color: #555;
+}
+
+/*-------------------------------------------*
+/* Footer gallery
+/*-------------------------------------------*/
+
+.footer-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1vw -0.5vw 0 -0.5vw;
+}
+
+.footer-gallery__item {
+    flex: 0 0 auto;
+    width: 33.333%;
+    margin: 1vw 0 0 0;
+    padding: 0 0.5vw;
+}
